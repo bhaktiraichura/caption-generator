@@ -1,4 +1,4 @@
-# Image-Captioning
+# caption_generator
 Image Captioning using Attention and Audio Generation
 
 
