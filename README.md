@@ -17,9 +17,7 @@ pip install -r requirements.txt
 
 5. Run data_preprocessing.py to preprocess the dataset.
 python data_preprocessing.py --dataset_path flickr8k_dataset --tokenizer_path tokenizer.pickle --max_length 40 --num_words 5000 --output_path output
-
 Arguments:
-
 dataset_path: path to the dataset directory.
 tokenizer_path: path to the tokenizer file.
 max_length: maximum length of the caption.
@@ -42,8 +40,8 @@ dataset_path: path to the preprocessed data.
 tokenizer_path: path to the tokenizer file.
 model_path: path to the trained model.
 
-8. Run inference.py to generate captions for new images.
-python inference.py --model_path model --tokenizer_path tokenizer.pickle --image_path test.jpg
+8. Run test.py to generate captions for new images.
+python test.py --model_path model --tokenizer_path tokenizer.pickle --image_path test.jpg
 Arguments:
 model_path: path to the trained model.
 tokenizer_path: path to the tokenizer file.
