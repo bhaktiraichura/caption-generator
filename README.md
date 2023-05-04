@@ -28,9 +28,7 @@ output_path: path to save the preprocessed data.
 
 6. Run train.py to train the model.
 python train.py --dataset_path output --tokenizer_path tokenizer.pickle --model_path model --epochs 10 --batch_size 64
-
 Arguments:
-
 dataset_path: path to the preprocessed data.
 tokenizer_path: path to the tokenizer file.
 model_path: path to save the trained model.
@@ -39,18 +37,14 @@ batch_size: size of the training batch.
 
 7. Run test.py to evaluate the model.
 python test.py --dataset_path output --tokenizer_path tokenizer.pickle --model_path model
-
 Arguments:
-
 dataset_path: path to the preprocessed data.
 tokenizer_path: path to the tokenizer file.
 model_path: path to the trained model.
 
 8. Run inference.py to generate captions for new images.
 python inference.py --model_path model --tokenizer_path tokenizer.pickle --image_path test.jpg
-
 Arguments:
-
 model_path: path to the trained model.
 tokenizer_path: path to the tokenizer file.
 image_path: path to the image for which to generate a caption.
