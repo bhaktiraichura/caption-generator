@@ -47,5 +47,6 @@ model_path: path to the trained model.
 tokenizer_path: path to the tokenizer file.
 image_path: path to the image for which to generate a caption.
 
-
 Note: You can replace the test.jpg image with any other image you want to generate a caption for.
+
+9. Run audio_caption.py to generate audio
