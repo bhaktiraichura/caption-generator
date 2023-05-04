@@ -3,7 +3,7 @@ Image Captioning using Attention and Audio Generation
 
 
 1. Clone the repository to your local machine.
-git clone https://github.com/example/Image-Captioning.git
+git clone https://github.com/example/caption-generator.git
 
 2. Navigate to the project directory.
 cd caption-generator
